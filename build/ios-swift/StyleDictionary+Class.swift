@@ -4,18 +4,17 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 27 Oct 2022 03:06:44 GMT
+// Generated on Thu, 27 Oct 2022 05:48:49 GMT
 
 
 import UIKit
 
 public class StyleDictionaryClass {
-    public static let 1 = 8px
-    public static let 2 = 12px
     public static let 3 = 16px
     public static let 4 = 24px
     public static let 5 = 32px
     public static let 6 = 48px
+    public static let activePrimary = #014144
     public static let amberAmber10 = #FFF9F1
     public static let amberAmber100 = #2D1E07
     public static let amberAmber20 = #FFEFD7
@@ -26,7 +25,7 @@ public class StyleDictionaryClass {
     public static let amberAmber70 = #A16B19
     public static let amberAmber80 = #754C0E
     public static let amberAmber90 = #523304
-    public static let backgroundUiBackground = #ffffff
+    public static let backgroundBackground = #ffffff
     public static let blackBlack = #000000
     public static let blueBlue10 = #EDF5FF
     public static let blueBlue100 = #001140
@@ -38,9 +37,9 @@ public class StyleDictionaryClass {
     public static let blueBlue70 = #0044CA
     public static let blueBlue80 = #002D99
     public static let blueBlue90 = #001D6A
-    public static let buttonButtonSeparator = #DDE1E6
-    public static let buttonDanger01 = #D91E28
-    public static let buttonDanger02 = #D91E28
+    public static let button01 = #D91E28
+    public static let button02 = #D91E28
+    public static let buttonSeparator = #DDE1E6
     public static let coolGrayCoolGray10 = #F2F4F8
     public static let coolGrayCoolGray100 = #121619
     public static let coolGrayCoolGray20 = #DDE1E6
@@ -71,7 +70,7 @@ public class StyleDictionaryClass {
     public static let darkPurpleDarkPurple70 = #682AC0
     public static let darkPurpleDarkPurple80 = #481E88
     public static let darkPurpleDarkPurple90 = #31135C
-    public static let decorativeDecorative01 = #DDE1E6
+    public static let decorative01 = #DDE1E6
     public static let deepOrangeDeepOrange10 = #FFF4F1
     public static let deepOrangeDeepOrange100 = #2D1007
     public static let deepOrangeDeepOrange20 = #FFE0D7
@@ -82,8 +81,8 @@ public class StyleDictionaryClass {
     public static let deepOrangeDeepOrange70 = #A13919
     public static let deepOrangeDeepOrange80 = #75260E
     public static let deepOrangeDeepOrange90 = #521604
-    public static let fieldField01 = #F2F4F8
-    public static let fieldField02 = #ffffff
+    public static let field01 = #F2F4F8
+    public static let field02 = #ffffff
     public static let fontSize2xl = 24
     public static let fontSize3xl = 30
     public static let fontSize4xl = 36
@@ -120,20 +119,30 @@ public class StyleDictionaryClass {
     public static let greenGreen70 = #11602B
     public static let greenGreen80 = #06431A
     public static let greenGreen90 = #032D10
-    public static let iconIcon01 = #121619
-    public static let iconIcon02 = #4D5358
-    public static let iconIcon03 = #ffffff
-    public static let interactiveInteractive01 = #067D79
-    public static let interactiveInteractive02 = #343A3F
-    public static let interactiveInteractive03 = #067D79
-    public static let interactiveInteractive04 = #067D79
-    public static let inverseInverse01 = #ffffff
-    public static let inverseInverse02 = #343A3F
-    public static let inverseInverseLink = #14BDBA
-    public static let inverseInverseSupport01 = #F94D56
-    public static let inverseInverseSupport02 = #45BE6B
-    public static let inverseInverseSupport03 = #FEF283
-    public static let inverseInverseSupport04 = #4589FB
+    public static let hoverDanger = #A1191F
+    public static let hoverElectedUi = #C1C7CD
+    public static let hoverLightUi = #DDE1E6
+    public static let hoverPrimary = #035D5D
+    public static let hoverPrimaryText = #035D5D
+    public static let hoverRow = #DDE1E6
+    public static let hoverSecondary = #21272A
+    public static let hoverTertiary = #035D5D
+    public static let hoverUi = #DDE1E6
+    public static let icon01 = #121619
+    public static let icon02 = #4D5358
+    public static let icon03 = #ffffff
+    public static let interactive01 = #067D79
+    public static let interactive02 = #343A3F
+    public static let interactive03 = #067D79
+    public static let interactive04 = #067D79
+    public static let inverse01 = #ffffff
+    public static let inverse02 = #343A3F
+    public static let inverseHoverUi = #21272A
+    public static let inverseLink = #14BDBA
+    public static let inverseSupport01 = #F94D56
+    public static let inverseSupport02 = #45BE6B
+    public static let inverseSupport03 = #FEF283
+    public static let inverseSupport04 = #4589FB
     public static let lightBlueLightBlue10 = #EDF6FF
     public static let lightBlueLightBlue100 = #002040
     public static let lightBlueLightBlue20 = #D0E7FE
@@ -177,8 +186,8 @@ public class StyleDictionaryClass {
     public static let lineHightSm = 20
     public static let lineHightXl = 28
     public static let lineHightXs = 16
-    public static let linkLink01 = #067D79
-    public static let linkLink02 = #035D5D
+    public static let link01 = #067D79
+    public static let link02 = #035D5D
     public static let magentaMagenta10 = #FFF0F7
     public static let magentaMagenta100 = #2A0A18
     public static let magentaMagenta20 = #FFD6E7
@@ -189,6 +198,8 @@ public class StyleDictionaryClass {
     public static let magentaMagenta70 = #9E1851
     public static let magentaMagenta80 = #740936
     public static let magentaMagenta90 = #510223
+    public static let metadataTokenSetOrder0 = global
+    public static let metadataTokenSetOrder1 = Theme
     public static let orangeOrange10 = #FFF6F1
     public static let orangeOrange100 = #2D1507
     public static let orangeOrange20 = #FFE6D7
@@ -199,7 +210,7 @@ public class StyleDictionaryClass {
     public static let orangeOrange70 = #A14B19
     public static let orangeOrange80 = #75340E
     public static let orangeOrange90 = #522104
-    public static let overlayOverlay01 = #12161980
+    public static let overlay01 = #12161980
     public static let purplePurple10 = #F9F2FE
     public static let purplePurple100 = #210F2F
     public static let purplePurple20 = #EEDAFE
@@ -229,10 +240,10 @@ public class StyleDictionaryClass {
     public static let roundedNone = 0
     public static let roundedSm = 2px
     public static let roundedXl = 12px
-    public static let supportSupport01 = #D91E28
-    public static let supportSupport02 = #1C803D
-    public static let supportSupport03 = #F9E84D
-    public static let supportSupport04 = #0065CA
+    public static let support01 = #D91E28
+    public static let support02 = #1C803D
+    public static let support03 = #F9E84D
+    public static let support04 = #0065CA
     public static let tealTeal10 = #D9FBFB
     public static let tealTeal100 = #081A1C
     public static let tealTeal20 = #9FF0F0
@@ -243,17 +254,17 @@ public class StyleDictionaryClass {
     public static let tealTeal70 = #035D5D
     public static let tealTeal80 = #014144
     public static let tealTeal90 = #032B30
-    public static let textText01 = #121619
-    public static let textText02 = #4D5358
-    public static let textText03 = #A2A9B0
-    public static let textText04 = #ffffff
-    public static let textText05 = #697077
-    public static let textTextError = #D91E28
-    public static let uiUi01 = #F2F4F8
-    public static let uiUi02 = #ffffff
-    public static let uiUi03 = #DDE1E6
-    public static let uiUi04 = #878D96
-    public static let uiUi05 = #121619
+    public static let text01 = #121619
+    public static let text02 = #4D5358
+    public static let text03 = #A2A9B0
+    public static let text04 = #ffffff
+    public static let text05 = #697077
+    public static let textError = #D91E28
+    public static let ui01 = #F2F4F8
+    public static let ui02 = #ffffff
+    public static let ui03 = #DDE1E6
+    public static let ui04 = #878D96
+    public static let ui05 = #121619
     public static let warmGrayWarmGray10 = #F7F3F2
     public static let warmGrayWarmGray100 = #171414
     public static let warmGrayWarmGray20 = #E5E0DF

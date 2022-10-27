@@ -4,18 +4,17 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 27 Oct 2022 03:06:44 GMT
+// Generated on Thu, 27 Oct 2022 05:48:49 GMT
 
 
 import UIKit
 
 internal struct StyleDictionaryStruct {
-    internal static let 1 = 8px
-    internal static let 2 = 12px
     internal static let 3 = 16px
     internal static let 4 = 24px
     internal static let 5 = 32px
     internal static let 6 = 48px
+    internal static let activePrimary = #014144
     internal static let amberAmber10 = #FFF9F1
     internal static let amberAmber100 = #2D1E07
     internal static let amberAmber20 = #FFEFD7
@@ -26,7 +25,7 @@ internal struct StyleDictionaryStruct {
     internal static let amberAmber70 = #A16B19
     internal static let amberAmber80 = #754C0E
     internal static let amberAmber90 = #523304
-    internal static let backgroundUiBackground = #ffffff
+    internal static let backgroundBackground = #ffffff
     internal static let blackBlack = #000000
     internal static let blueBlue10 = #EDF5FF
     internal static let blueBlue100 = #001140
@@ -38,9 +37,9 @@ internal struct StyleDictionaryStruct {
     internal static let blueBlue70 = #0044CA
     internal static let blueBlue80 = #002D99
     internal static let blueBlue90 = #001D6A
-    internal static let buttonButtonSeparator = #DDE1E6
-    internal static let buttonDanger01 = #D91E28
-    internal static let buttonDanger02 = #D91E28
+    internal static let button01 = #D91E28
+    internal static let button02 = #D91E28
+    internal static let buttonSeparator = #DDE1E6
     internal static let coolGrayCoolGray10 = #F2F4F8
     internal static let coolGrayCoolGray100 = #121619
     internal static let coolGrayCoolGray20 = #DDE1E6
@@ -71,7 +70,7 @@ internal struct StyleDictionaryStruct {
     internal static let darkPurpleDarkPurple70 = #682AC0
     internal static let darkPurpleDarkPurple80 = #481E88
     internal static let darkPurpleDarkPurple90 = #31135C
-    internal static let decorativeDecorative01 = #DDE1E6
+    internal static let decorative01 = #DDE1E6
     internal static let deepOrangeDeepOrange10 = #FFF4F1
     internal static let deepOrangeDeepOrange100 = #2D1007
     internal static let deepOrangeDeepOrange20 = #FFE0D7
@@ -82,8 +81,8 @@ internal struct StyleDictionaryStruct {
     internal static let deepOrangeDeepOrange70 = #A13919
     internal static let deepOrangeDeepOrange80 = #75260E
     internal static let deepOrangeDeepOrange90 = #521604
-    internal static let fieldField01 = #F2F4F8
-    internal static let fieldField02 = #ffffff
+    internal static let field01 = #F2F4F8
+    internal static let field02 = #ffffff
     internal static let fontSize2xl = 24
     internal static let fontSize3xl = 30
     internal static let fontSize4xl = 36
@@ -120,20 +119,30 @@ internal struct StyleDictionaryStruct {
     internal static let greenGreen70 = #11602B
     internal static let greenGreen80 = #06431A
     internal static let greenGreen90 = #032D10
-    internal static let iconIcon01 = #121619
-    internal static let iconIcon02 = #4D5358
-    internal static let iconIcon03 = #ffffff
-    internal static let interactiveInteractive01 = #067D79
-    internal static let interactiveInteractive02 = #343A3F
-    internal static let interactiveInteractive03 = #067D79
-    internal static let interactiveInteractive04 = #067D79
-    internal static let inverseInverse01 = #ffffff
-    internal static let inverseInverse02 = #343A3F
-    internal static let inverseInverseLink = #14BDBA
-    internal static let inverseInverseSupport01 = #F94D56
-    internal static let inverseInverseSupport02 = #45BE6B
-    internal static let inverseInverseSupport03 = #FEF283
-    internal static let inverseInverseSupport04 = #4589FB
+    internal static let hoverDanger = #A1191F
+    internal static let hoverElectedUi = #C1C7CD
+    internal static let hoverLightUi = #DDE1E6
+    internal static let hoverPrimary = #035D5D
+    internal static let hoverPrimaryText = #035D5D
+    internal static let hoverRow = #DDE1E6
+    internal static let hoverSecondary = #21272A
+    internal static let hoverTertiary = #035D5D
+    internal static let hoverUi = #DDE1E6
+    internal static let icon01 = #121619
+    internal static let icon02 = #4D5358
+    internal static let icon03 = #ffffff
+    internal static let interactive01 = #067D79
+    internal static let interactive02 = #343A3F
+    internal static let interactive03 = #067D79
+    internal static let interactive04 = #067D79
+    internal static let inverse01 = #ffffff
+    internal static let inverse02 = #343A3F
+    internal static let inverseHoverUi = #21272A
+    internal static let inverseLink = #14BDBA
+    internal static let inverseSupport01 = #F94D56
+    internal static let inverseSupport02 = #45BE6B
+    internal static let inverseSupport03 = #FEF283
+    internal static let inverseSupport04 = #4589FB
     internal static let lightBlueLightBlue10 = #EDF6FF
     internal static let lightBlueLightBlue100 = #002040
     internal static let lightBlueLightBlue20 = #D0E7FE
@@ -177,8 +186,8 @@ internal struct StyleDictionaryStruct {
     internal static let lineHightSm = 20
     internal static let lineHightXl = 28
     internal static let lineHightXs = 16
-    internal static let linkLink01 = #067D79
-    internal static let linkLink02 = #035D5D
+    internal static let link01 = #067D79
+    internal static let link02 = #035D5D
     internal static let magentaMagenta10 = #FFF0F7
     internal static let magentaMagenta100 = #2A0A18
     internal static let magentaMagenta20 = #FFD6E7
@@ -189,6 +198,8 @@ internal struct StyleDictionaryStruct {
     internal static let magentaMagenta70 = #9E1851
     internal static let magentaMagenta80 = #740936
     internal static let magentaMagenta90 = #510223
+    internal static let metadataTokenSetOrder0 = global
+    internal static let metadataTokenSetOrder1 = Theme
     internal static let orangeOrange10 = #FFF6F1
     internal static let orangeOrange100 = #2D1507
     internal static let orangeOrange20 = #FFE6D7
@@ -199,7 +210,7 @@ internal struct StyleDictionaryStruct {
     internal static let orangeOrange70 = #A14B19
     internal static let orangeOrange80 = #75340E
     internal static let orangeOrange90 = #522104
-    internal static let overlayOverlay01 = #12161980
+    internal static let overlay01 = #12161980
     internal static let purplePurple10 = #F9F2FE
     internal static let purplePurple100 = #210F2F
     internal static let purplePurple20 = #EEDAFE
@@ -229,10 +240,10 @@ internal struct StyleDictionaryStruct {
     internal static let roundedNone = 0
     internal static let roundedSm = 2px
     internal static let roundedXl = 12px
-    internal static let supportSupport01 = #D91E28
-    internal static let supportSupport02 = #1C803D
-    internal static let supportSupport03 = #F9E84D
-    internal static let supportSupport04 = #0065CA
+    internal static let support01 = #D91E28
+    internal static let support02 = #1C803D
+    internal static let support03 = #F9E84D
+    internal static let support04 = #0065CA
     internal static let tealTeal10 = #D9FBFB
     internal static let tealTeal100 = #081A1C
     internal static let tealTeal20 = #9FF0F0
@@ -243,17 +254,17 @@ internal struct StyleDictionaryStruct {
     internal static let tealTeal70 = #035D5D
     internal static let tealTeal80 = #014144
     internal static let tealTeal90 = #032B30
-    internal static let textText01 = #121619
-    internal static let textText02 = #4D5358
-    internal static let textText03 = #A2A9B0
-    internal static let textText04 = #ffffff
-    internal static let textText05 = #697077
-    internal static let textTextError = #D91E28
-    internal static let uiUi01 = #F2F4F8
-    internal static let uiUi02 = #ffffff
-    internal static let uiUi03 = #DDE1E6
-    internal static let uiUi04 = #878D96
-    internal static let uiUi05 = #121619
+    internal static let text01 = #121619
+    internal static let text02 = #4D5358
+    internal static let text03 = #A2A9B0
+    internal static let text04 = #ffffff
+    internal static let text05 = #697077
+    internal static let textError = #D91E28
+    internal static let ui01 = #F2F4F8
+    internal static let ui02 = #ffffff
+    internal static let ui03 = #DDE1E6
+    internal static let ui04 = #878D96
+    internal static let ui05 = #121619
     internal static let warmGrayWarmGray10 = #F7F3F2
     internal static let warmGrayWarmGray100 = #171414
     internal static let warmGrayWarmGray20 = #E5E0DF

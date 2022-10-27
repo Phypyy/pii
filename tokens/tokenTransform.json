@@ -1,12 +1,4 @@
 {
-  "1": {
-    "value": "8px",
-    "type": "spacing"
-  },
-  "2": {
-    "value": "12px",
-    "type": "spacing"
-  },
   "3": {
     "value": "16px",
     "type": "spacing"
@@ -24,222 +16,282 @@
     "type": "spacing"
   },
   "Background": {
-    "$ui-background": {
+    "background": {
       "value": "#ffffff",
       "type": "color",
       "description": "Default page background"
     }
   },
   "Interactive": {
-    "$interactive-01": {
+    "01": {
       "value": "#067D79",
       "type": "color",
       "description": "Primary interactive color;\nPrimary buttons"
     },
-    "$interactive-02": {
+    "02": {
       "value": "#343A3F",
       "type": "color",
       "description": "Secondary interactive color;\nSecondary buttons"
     },
-    "$interactive-03": {
+    "03": {
       "value": "#067D79",
       "type": "color",
       "description": "4.5:1 AA contrast;\nTertiary buttons"
     },
-    "$interactive-04": {
+    "04": {
       "value": "#067D79",
       "type": "color",
       "description": "3:1 AA contrast;\nSelected elements;\nActive elements;\nAccent icons"
     }
   },
   "Button": {
-    "$danger-01": {
+    "01": {
       "value": "#D91E28",
       "type": "color",
       "description": "Danger button background;\n3:1 AA contrast"
     },
-    "$danger-02": {
+    "02": {
       "value": "#D91E28",
       "type": "color",
       "description": "Danger button variant;\nText;\nIcon;\nBorder"
     },
-    "$button-separator": {
+    "separator": {
       "value": "#DDE1E6",
       "type": "color",
       "description": "3:1 AA element contrast;\nFluid button separator"
     }
   },
   "UI": {
-    "$ui-01": {
+    "01": {
       "value": "#F2F4F8",
       "type": "color",
       "description": "Container background on $ui-background;\nSecondary page background"
     },
-    "$ui-02": {
+    "02": {
       "value": "#ffffff",
       "type": "color",
       "description": "Container background on $ui-01;\n“Light” variant background"
     },
-    "$ui-03": {
+    "03": {
       "value": "#DDE1E6",
       "type": "color",
       "description": "Subtle border;\nTertiary background"
     },
-    "$ui-04": {
+    "04": {
       "value": "#878D96",
       "type": "color",
       "description": "3:1 AA element contrast;\nMedium contrast border"
     },
-    "$ui-05": {
+    "05": {
       "value": "#121619",
       "type": "color",
       "description": "4.5:1 AA element contrast;\nHigh contrast border;\nEmphasis elements"
     }
   },
   "Decorative": {
-    "$decorative-01": {
+    "01": {
       "value": "#DDE1E6",
       "type": "color",
       "description": "“Light” variant elements"
     }
   },
   "Text": {
-    "$text-01": {
+    "01": {
       "value": "#121619",
       "type": "color",
       "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for text-02"
     },
-    "$text-02": {
+    "02": {
       "value": "#4D5358",
       "type": "color",
       "description": "Secondary text;\nInput labels"
     },
-    "$text-03": {
+    "03": {
       "value": "#A2A9B0",
       "type": "color",
       "description": "Placeholder text"
     },
-    "$text-04": {
+    "04": {
       "value": "#ffffff",
       "type": "color",
       "description": "Text on interactive colors"
     },
-    "$text-05": {
+    "05": {
       "value": "#697077",
       "type": "color",
       "description": "Tertiary text;\nHelp text"
     },
-    "$text-error": {
+    "error": {
       "value": "#D91E28",
       "type": "color",
       "description": "Error message text"
     }
   },
   "Link": {
-    "$link-01": {
+    "01": {
       "value": "#067D79",
       "type": "color",
       "description": "Primary links;\nGhost button"
     },
-    "$link-02": {
+    "02": {
       "value": "#035D5D",
       "type": "color",
       "description": "Secondary link color for lower contrast backgrounds"
     }
   },
   "Inverse": {
-    "$inverse-link": {
+    "link": {
       "value": "#14BDBA",
       "type": "color",
       "description": "Links on $inverse-02 backgrounds"
     },
-    "$inverse-01": {
+    "01": {
       "value": "#ffffff",
       "type": "color",
       "description": "Inverse text color;\nInverse icon color"
     },
-    "$inverse-02": {
+    "02": {
       "value": "#343A3F",
       "type": "color",
       "description": "High contrast backgrounds;\nHigh contrast elements"
     },
-    "$inverse-support-01": {
+    "support-01": {
       "value": "#F94D56",
       "type": "color",
       "description": "Danger in high contrast moments"
     },
-    "$inverse-support-02": {
+    "support-02": {
       "value": "#45BE6B",
       "type": "color",
       "description": "Success in high contrast moments"
     },
-    "$inverse-support-03": {
+    "support-03": {
       "value": "#FEF283",
       "type": "color",
       "description": "Warning in high contrast moments"
     },
-    "$inverse-support-04": {
+    "support-04": {
       "value": "#4589FB",
       "type": "color",
       "description": "Information in high contrast moments"
+    },
+    "hover-ui": {
+      "value": "#21272A",
+      "type": "color"
     }
   },
   "Icon": {
-    "$icon-01": {
+    "01": {
       "value": "#121619",
       "type": "color",
       "description": "Primary icons"
     },
-    "$icon-02": {
+    "02": {
       "value": "#4D5358",
       "type": "color",
       "description": "Secondary icons"
     },
-    "$icon-03": {
+    "03": {
       "value": "#ffffff",
       "type": "color",
       "description": "Icons on interactive colors;\nIcons on non-ui colors"
     }
   },
   "Field": {
-    "$field-01": {
+    "01": {
       "value": "#F2F4F8",
       "type": "color",
       "description": "Default input fields;\nField color on $ui-backgrounds"
     },
-    "$field-02": {
+    "02": {
       "value": "#ffffff",
       "type": "color",
       "description": "“Light” variant input fields;\nFields on $ui-01 backgrounds"
     }
   },
   "Support": {
-    "$support-01": {
+    "01": {
       "value": "#D91E28",
       "type": "color",
       "description": "Error"
     },
-    "$support-02": {
+    "02": {
       "value": "#1C803D",
       "type": "color",
       "description": "Success"
     },
-    "$support-03": {
+    "03": {
       "value": "#F9E84D",
       "type": "color",
       "description": "Warning"
     },
-    "$support-04": {
+    "04": {
       "value": "#0065CA",
       "type": "color",
       "description": "Information"
     }
   },
   "Overlay": {
-    "$overlay-01": {
+    "01": {
       "value": "#12161980",
       "type": "color",
       "description": "Background overlay"
+    }
+  },
+  "Hover": {
+    "primary": {
+      "value": "#035D5D",
+      "type": "color"
+    },
+    "primary-text": {
+      "value": "#035D5D",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#21272A",
+      "type": "color"
+    },
+    "tertiary": {
+      "value": "#035D5D",
+      "type": "color"
+    },
+    "ui": {
+      "value": "#DDE1E6",
+      "type": "color"
+    },
+    "light-ui": {
+      "value": "#DDE1E6",
+      "type": "color"
+    },
+    "elected-ui": {
+      "value": "#C1C7CD",
+      "type": "color"
+    },
+    "danger": {
+      "value": "#A1191F",
+      "type": "color"
+    },
+    "row": {
+      "value": "#DDE1E6",
+      "type": "color"
+    }
+  },
+  "Active": {
+    "primary": {
+      "value": "#014144",
+      "type": "color"
+    }
+  },
+  "$metadata": {
+    "tokenSetOrder": {
+      "0": {
+        "value": "global",
+        "type": "other"
+      },
+      "1": {
+        "value": "Theme",
+        "type": "other"
+      }
     }
   },
   "White": {
