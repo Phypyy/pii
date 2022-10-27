@@ -6,14 +6,12 @@
         class="inline-flex
         items-center
         rounded-md border
-        text-white
-        border-gray-300 
+        text-text-04
         bg-interactive-01
         px-4
         py-2
         text-sm
         font-medium
-        text-gray-700
         hover:bg-hover-primary">
               Primary
             </button>
@@ -23,15 +21,13 @@
         class="inline-flex
         items-center
         rounded-md border
-        text-white
-        border-gray-300 
-        bg-interactive-01
+        text-text-04
+        bg-interactive-02
         px-4
         py-2
         text-sm
         font-medium
-        text-gray-700
-        hover:bg-hover-primary">
+        hover:bg-hover-secondary">
               Secondary
             </button>
       </div>
@@ -39,16 +35,16 @@
         <button type="button"
         class="inline-flex
         items-center
-        rounded-md border
-        text-white
-        border-gray-300 
-        bg-interactive-01
+        rounded-md border 
+        text-interactive-03
+        border-interactive-03
+        bg-ui-02
         px-4
         py-2
         text-sm
         font-medium
-        text-gray-700
-        hover:bg-hover-primary">
+        hover:bg-hover-tertiary
+        hover:text-inverse-01">
         tertiary
             </button>
       </div>
