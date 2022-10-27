@@ -10,6 +10,15 @@
                 "format": "scss/variables"
             }]
         },
+        "css": {
+            "transformGroup": "css",
+            "prefix": "pds",
+            "buildPath": "build/css/",
+            "files": [{
+                "destination": "variables.css",
+                "format": "css/variables"
+            }]
+        },
         "android": {
             "transformGroup": "android",
             "buildPath": "build/android/",
