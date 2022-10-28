@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 28 Oct 2022 09:43:54 GMT
+// Generated on Fri, 28 Oct 2022 09:58:59 GMT
 
 
 import UIKit
@@ -128,7 +128,7 @@ public class StyleDictionaryClass {
     public static let icon01 = #121619
     public static let icon02 = #4D5358
     public static let icon03 = #ffffff
-    public static let interactive01 = #067D79
+    public static let interactive01 = #F94D56
     public static let interactive02 = #343A3F
     public static let interactive03 = #067D79
     public static let interactive04 = #067D79
