@@ -4,16 +4,12 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 27 Oct 2022 06:56:07 GMT
+// Generated on Fri, 28 Oct 2022 09:29:04 GMT
 
 
 import UIKit
 
 public enum StyleDictionaryEnum {
-    public static let 3 = 16px
-    public static let 4 = 24px
-    public static let 5 = 32px
-    public static let 6 = 48px
     public static let activePrimary = #014144
     public static let amberAmber10 = #FFF9F1
     public static let amberAmber100 = #2D1E07
@@ -83,6 +79,7 @@ public enum StyleDictionaryEnum {
     public static let deepOrangeDeepOrange90 = #521604
     public static let field01 = #F2F4F8
     public static let field02 = #ffffff
+    public static let focusFocus = #067D79
     public static let fontSize2xl = 24
     public static let fontSize3xl = 30
     public static let fontSize4xl = 36
@@ -120,12 +117,12 @@ public enum StyleDictionaryEnum {
     public static let greenGreen80 = #06431A
     public static let greenGreen90 = #032D10
     public static let hoverDanger = #A1191F
-    public static let hoverElectedUi = #C1C7CD
     public static let hoverLightUi = #DDE1E6
     public static let hoverPrimary = #035D5D
     public static let hoverPrimaryText = #035D5D
     public static let hoverRow = #DDE1E6
     public static let hoverSecondary = #21272A
+    public static let hoverSelectedUi = #C1C7CD
     public static let hoverTertiary = #035D5D
     public static let hoverUi = #DDE1E6
     public static let icon01 = #121619
@@ -137,6 +134,7 @@ public enum StyleDictionaryEnum {
     public static let interactive04 = #067D79
     public static let inverse01 = #ffffff
     public static let inverse02 = #343A3F
+    public static let inverseFocusUi = #ffffff
     public static let inverseHoverUi = #21272A
     public static let inverseLink = #14BDBA
     public static let inverseSupport01 = #F94D56
@@ -198,8 +196,6 @@ public enum StyleDictionaryEnum {
     public static let magentaMagenta70 = #9E1851
     public static let magentaMagenta80 = #740936
     public static let magentaMagenta90 = #510223
-    public static let metadataTokenSetOrder0 = global
-    public static let metadataTokenSetOrder1 = Theme
     public static let orangeOrange10 = #FFF6F1
     public static let orangeOrange100 = #2D1507
     public static let orangeOrange20 = #FFE6D7
@@ -240,6 +236,12 @@ public enum StyleDictionaryEnum {
     public static let roundedNone = 0
     public static let roundedSm = 2px
     public static let roundedXl = 12px
+    public static let spacing01 = 8px
+    public static let spacing02 = 12px
+    public static let spacing03 = 16px
+    public static let spacing04 = 24px
+    public static let spacing05 = 32px
+    public static let spacing06 = 48px
     public static let support01 = #D91E28
     public static let support02 = #1C803D
     public static let support03 = #F9E84D

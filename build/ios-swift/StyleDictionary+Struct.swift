@@ -4,16 +4,12 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 27 Oct 2022 06:56:07 GMT
+// Generated on Fri, 28 Oct 2022 09:29:04 GMT
 
 
 import UIKit
 
 internal struct StyleDictionaryStruct {
-    internal static let 3 = 16px
-    internal static let 4 = 24px
-    internal static let 5 = 32px
-    internal static let 6 = 48px
     internal static let activePrimary = #014144
     internal static let amberAmber10 = #FFF9F1
     internal static let amberAmber100 = #2D1E07
@@ -83,6 +79,7 @@ internal struct StyleDictionaryStruct {
     internal static let deepOrangeDeepOrange90 = #521604
     internal static let field01 = #F2F4F8
     internal static let field02 = #ffffff
+    internal static let focusFocus = #067D79
     internal static let fontSize2xl = 24
     internal static let fontSize3xl = 30
     internal static let fontSize4xl = 36
@@ -120,12 +117,12 @@ internal struct StyleDictionaryStruct {
     internal static let greenGreen80 = #06431A
     internal static let greenGreen90 = #032D10
     internal static let hoverDanger = #A1191F
-    internal static let hoverElectedUi = #C1C7CD
     internal static let hoverLightUi = #DDE1E6
     internal static let hoverPrimary = #035D5D
     internal static let hoverPrimaryText = #035D5D
     internal static let hoverRow = #DDE1E6
     internal static let hoverSecondary = #21272A
+    internal static let hoverSelectedUi = #C1C7CD
     internal static let hoverTertiary = #035D5D
     internal static let hoverUi = #DDE1E6
     internal static let icon01 = #121619
@@ -137,6 +134,7 @@ internal struct StyleDictionaryStruct {
     internal static let interactive04 = #067D79
     internal static let inverse01 = #ffffff
     internal static let inverse02 = #343A3F
+    internal static let inverseFocusUi = #ffffff
     internal static let inverseHoverUi = #21272A
     internal static let inverseLink = #14BDBA
     internal static let inverseSupport01 = #F94D56
@@ -198,8 +196,6 @@ internal struct StyleDictionaryStruct {
     internal static let magentaMagenta70 = #9E1851
     internal static let magentaMagenta80 = #740936
     internal static let magentaMagenta90 = #510223
-    internal static let metadataTokenSetOrder0 = global
-    internal static let metadataTokenSetOrder1 = Theme
     internal static let orangeOrange10 = #FFF6F1
     internal static let orangeOrange100 = #2D1507
     internal static let orangeOrange20 = #FFE6D7
@@ -240,6 +236,12 @@ internal struct StyleDictionaryStruct {
     internal static let roundedNone = 0
     internal static let roundedSm = 2px
     internal static let roundedXl = 12px
+    internal static let spacing01 = 8px
+    internal static let spacing02 = 12px
+    internal static let spacing03 = 16px
+    internal static let spacing04 = 24px
+    internal static let spacing05 = 32px
+    internal static let spacing06 = 48px
     internal static let support01 = #D91E28
     internal static let support02 = #1C803D
     internal static let support03 = #F9E84D

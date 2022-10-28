@@ -1,11 +1,7 @@
 
 // Do not edit directly
-// Generated on Thu, 27 Oct 2022 06:56:06 GMT
+// Generated on Fri, 28 Oct 2022 09:29:04 GMT
 
-$pds-3: 16px;
-$pds-4: 24px;
-$pds-5: 32px;
-$pds-6: 48px;
 $pds-background-background: #ffffff;
 $pds-interactive-01: #067D79;
 $pds-interactive-02: #343A3F;
@@ -36,6 +32,7 @@ $pds-inverse-support-02: #45BE6B;
 $pds-inverse-support-03: #FEF283;
 $pds-inverse-support-04: #4589FB;
 $pds-inverse-hover-ui: #21272A;
+$pds-inverse-focus-ui: #ffffff;
 $pds-icon-01: #121619;
 $pds-icon-02: #4D5358;
 $pds-icon-03: #ffffff;
@@ -52,12 +49,17 @@ $pds-hover-secondary: #21272A;
 $pds-hover-tertiary: #035D5D;
 $pds-hover-ui: #DDE1E6;
 $pds-hover-light-ui: #DDE1E6;
-$pds-hover-elected-ui: #C1C7CD;
+$pds-hover-selected-ui: #C1C7CD;
 $pds-hover-danger: #A1191F;
 $pds-hover-row: #DDE1E6;
 $pds-active-primary: #014144;
-$pds-metadata-token-set-order-0: global;
-$pds-metadata-token-set-order-1: Theme;
+$pds-focus-focus: #067D79;
+$pds-spacing-01: 8px;
+$pds-spacing-02: 12px;
+$pds-spacing-03: 16px;
+$pds-spacing-04: 24px;
+$pds-spacing-05: 32px;
+$pds-spacing-06: 48px;
 $pds-white-white: #ffffff;
 $pds-black-black: #000000;
 $pds-red-red-10: #FFF1F1;
