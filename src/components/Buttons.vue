@@ -6,7 +6,7 @@
     <button class="btn btn-secondary">
     Secondary
     </button>
-    <button class="btn btn-primary">
+    <button class="btn btn-tertiary">
     Tertiary
     </button>
   </div>
@@ -37,7 +37,13 @@
   background-color: var(--pds-hover-secondary);
 }
 .btn-tertiary {
-  
+  border-color: var(--pds-interactive-03);
+  border-width: 1px;
+  color: var(--pds-interactive-03);
+}
+.btn-tertiary:hover{
+  background-color: var(--pds-hover-tertiary);
+  color: var(--pds-text-04);
 }
 
   </style>
