@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 28 Oct 2022 09:32:41 GMT
+// Generated on Fri, 28 Oct 2022 09:41:09 GMT
 
 
 import UIKit
@@ -118,7 +118,7 @@ internal struct StyleDictionaryStruct {
     internal static let greenGreen90 = #032D10
     internal static let hoverDanger = #A1191F
     internal static let hoverLightUi = #DDE1E6
-    internal static let hoverPrimary = #035D5D
+    internal static let hoverPrimary = #A13919
     internal static let hoverPrimaryText = #035D5D
     internal static let hoverRow = #DDE1E6
     internal static let hoverSecondary = #21272A
@@ -128,9 +128,9 @@ internal struct StyleDictionaryStruct {
     internal static let icon01 = #121619
     internal static let icon02 = #4D5358
     internal static let icon03 = #ffffff
-    internal static let interactive01 = #067D79
+    internal static let interactive01 = #F9754D
     internal static let interactive02 = #343A3F
-    internal static let interactive03 = #067D79
+    internal static let interactive03 = #F9754D
     internal static let interactive04 = #067D79
     internal static let inverse01 = #ffffff
     internal static let inverse02 = #343A3F

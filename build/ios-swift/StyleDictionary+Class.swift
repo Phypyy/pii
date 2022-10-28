@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 28 Oct 2022 09:32:41 GMT
+// Generated on Fri, 28 Oct 2022 09:41:09 GMT
 
 
 import UIKit
@@ -118,7 +118,7 @@ public class StyleDictionaryClass {
     public static let greenGreen90 = #032D10
     public static let hoverDanger = #A1191F
     public static let hoverLightUi = #DDE1E6
-    public static let hoverPrimary = #035D5D
+    public static let hoverPrimary = #A13919
     public static let hoverPrimaryText = #035D5D
     public static let hoverRow = #DDE1E6
     public static let hoverSecondary = #21272A
@@ -128,9 +128,9 @@ public class StyleDictionaryClass {
     public static let icon01 = #121619
     public static let icon02 = #4D5358
     public static let icon03 = #ffffff
-    public static let interactive01 = #067D79
+    public static let interactive01 = #F9754D
     public static let interactive02 = #343A3F
-    public static let interactive03 = #067D79
+    public static let interactive03 = #F9754D
     public static let interactive04 = #067D79
     public static let inverse01 = #ffffff
     public static let inverse02 = #343A3F

@@ -1,13 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Fri, 28 Oct 2022 09:32:41 GMT
+ * Generated on Fri, 28 Oct 2022 09:41:09 GMT
  */
 
 :root {
   --pds-background-background: #ffffff;
-  --pds-interactive-01: #067D79;
+  --pds-interactive-01: #F9754D;
   --pds-interactive-02: #343A3F;
-  --pds-interactive-03: #067D79;
+  --pds-interactive-03: #F9754D;
   --pds-interactive-04: #067D79;
   --pds-button-01: #D91E28;
   --pds-button-02: #D91E28;
@@ -45,7 +45,7 @@
   --pds-support-03: #F9E84D;
   --pds-support-04: #0065CA;
   --pds-overlay-01: #12161980;
-  --pds-hover-primary: #035D5D;
+  --pds-hover-primary: #A13919;
   --pds-hover-primary-text: #035D5D;
   --pds-hover-secondary: #21272A;
   --pds-hover-tertiary: #035D5D;
