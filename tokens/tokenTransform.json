@@ -8,7 +8,7 @@
   },
   "Interactive": {
     "01": {
-      "value": "#F9754D",
+      "value": "#067D79",
       "type": "color",
       "description": "Primary interactive color;\nPrimary buttons"
     },
@@ -18,7 +18,7 @@
       "description": "Secondary interactive color;\nSecondary buttons"
     },
     "03": {
-      "value": "#F9754D",
+      "value": "#067D79",
       "type": "color",
       "description": "4.5:1 AA contrast;\nTertiary buttons"
     },
@@ -229,7 +229,7 @@
   },
   "Hover": {
     "primary": {
-      "value": "#A13919",
+      "value": "#035D5D",
       "type": "color"
     },
     "primary-text": {
